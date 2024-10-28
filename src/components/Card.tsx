@@ -30,7 +30,7 @@ export default function Card({ userData }: CardProps) {
 
       {showDetails && (
         <p className="text-gray-600 mt-2">
-          More details about {userData.name}...
+          More details {userData.name}...
         </p>
       )}
 
